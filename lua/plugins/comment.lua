@@ -1,7 +1,7 @@
-require('Comment').setup{
+require('Comment').setup {
 	toggler = {
 		line = '//',
-        block = '±c', --[[ only for gb (Go back) ]]
+		block = '±c', --[[ only for gb (Go back) ]]
 	},
 	opleader = {
 		line = '//',

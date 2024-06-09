@@ -1,0 +1,1 @@
+-- vim.opt_global.updatetime = 300

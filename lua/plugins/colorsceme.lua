@@ -26,25 +26,34 @@ require("dracula").setup({
 		-- white = "#ABB2BF",
 		-- black = "#191A21",
 		--
-		-- bg = "#1b1b1e",
+		-- based colors
 		bg = "#1B1B1E",
-		menu = "#1C1C1F", --nvim-tree
+		green = "#8EF593", --functions name
+		pink = "#F88ED9", -- keywords
+		bright_cyan = "#6FAFFA",
+		comment = "#5E61AA", -- comment
+		orange = "#FFB86C", -- package golang
+		yellow = "#F1FA8C", -- strings golang
 		fg = "#F8F8F2",
-		selection = "#3A3A3A",
-		comment = "#5E61AA",
-		red = "#FF5555",
-		orange = "#FFB86C",
-		yellow = "#F1FA8C",
-		green = "#8EF593",
+		selection = "#3A3A3A", -- visual mode nvim
+		cyan = "#8BE9FD", -- func
+
+		win_separator = "#24272c",
+		status_line_fg = "#8EF593",
+		-- status_line_bg = "#20222b",
+		status_line_bg = "#1e2029",
+		status_line_no_cur_fg = "#5E61AA",
+		status_line_no_cur_bg = "#1e2029",
+
+		red = "#FF5555", --erors golang
+		menu = "#1C1C1F", --nvim-tree
+		-- yellow = "#5f5fff",
 		purple = "#BD93F9",
-		cyan = "#8BE9FD",
-		pink = "#F88ED9",
 		bright_red = "#FF6E6E",
 		bright_green = "#69FF94",
 		bright_yellow = "#FFFFA5",
 		bright_blue = "#D6ACFF",
 		bright_magenta = "#FF92DF",
-		bright_cyan = "#6FAFFA",
 		bright_white = "#FFFFFF",
 		visual = "#3A3A3A",
 		gutter_fg = "#4B5263",
@@ -64,13 +73,6 @@ require("dracula").setup({
 		-- status_line_bg = "#1e2029",
 		-- status_line_no_cur_fg = "#5E61AA",
 		-- status_line_no_cur_bg = "#1e2029",
-
-		win_separator = "#24272c",
-		status_line_fg = "#8EF593",
-		-- status_line_bg = "#20222b",
-		status_line_bg = "#1e2029",
-		status_line_no_cur_fg = "#5E61AA",
-		status_line_no_cur_bg = "#1e2029",
 	}
 })
 
